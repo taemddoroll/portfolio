@@ -1,0 +1,174 @@
+body {
+    border-bottom: 30px solid #000;
+    border-left: 30px solid #000;
+    border-right: 30px solid #000;
+    /* Change the color and width as needed */
+    
+
+}
+
+
+
+.navbar {
+    
+    position: fixed !important;
+    z-index: 1000;
+   
+
+}
+
+.btn {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar .btn-outline-secondary {
+    color: #000000;
+    /* Change to your desired text color */
+    border-color: #fce915;
+    /* Change to match the text color */
+}
+
+/* Change hover color */
+.navbar .btn-outline-secondary:hover {
+    color: #000000;
+    /* Change to your desired hover text color */
+    background-color: #ffe600;
+    /* Change to your desired hover background color */
+    border-color: #000000;
+    /* Change to match the background color */
+}
+
+#header {
+    width: 100%;
+    
+    background-image: url(images/yellowbg.jpg);
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+
+    padding-top: 15%;
+    justify-content: center;
+
+}
+
+#icons {
+    text-align: center;
+
+}
+
+
+
+#intro {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Merriweather', serif;
+
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem !important;
+}
+
+h2 {
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.bi {
+    padding: 5px;
+}
+
+.img-fluid {
+    transform: scaleX(-1);
+
+
+}
+
+
+
+
+
+
+.box1 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 100%;
+    /* Use percentage for width */
+    max-width: 544px;
+    /* Set a maximum width */
+    text-align: center;
+    display: inline-block;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+}
+
+#section1 {
+    background-color: #000000;
+    color: beige;
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    width:100%
+
+
+}
+
+#section1 p {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.box3 {
+    text-align: center;
+    color: white;
+
+    /* box-shadow: 0 0 10px 1px rgb(255, 254, 254); */
+    width: 40%;
+    height: fit-content;
+    /* border: 1px solid rgb(100, 100, 100); */
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    
+
+
+}
+
+.box2 {
+    text-align: center;
+    color: white;
+
+    box-shadow: 0 0 10px 1px rgb(255, 254, 254);
+    width: 40%;
+    height: fit-content;
+    border: 1px solid rgb(100, 100, 100);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    margin-bottom: 5%;
+
+
+}
+
+.progress {
+    margin: 20px;
+    font-weight: bold;
+}
